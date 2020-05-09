@@ -6,10 +6,10 @@ use App\Task1\Track;
 use App\Task3\CarTrackHtmlPresenter;
 use \App\Task1\Car;
 
-$arena = new Track(4, 40);
+$track = new Track(4, 40);
 
 $presenter = new CarTrackHtmlPresenter();
-$presentation = $presenter->present($arena);
+$presentation = $presenter->present($track);
 
 ?>
 
